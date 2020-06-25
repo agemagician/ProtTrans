@@ -1,6 +1,1 @@
-[submodule "Visualization/Visualization/bertviz_repo"]
-	path = Visualization/Visualization/bertviz_repo
-	url = https://github.com/jessevig/bertviz.git
-[submodule "Visualization/bertviz_repo"]
-	path = Visualization/bertviz_repo
-	url = https://github.com/jessevig/bertviz.git
+
