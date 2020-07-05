@@ -13,7 +13,7 @@ Have a look at our paper [ProtTrans: cracking the language of life’s code thro
 
 <br/>
 <p align="center">
-    <img width="80%" src="https://github.com/agemagician/ProtTrans/raw/master/images/transformers_attention.png" alt="ProtTrans Attention Visualization">
+    <img width="70%" src="https://github.com/agemagician/ProtTrans/raw/master/images/transformers_attention.png" alt="ProtTrans Attention Visualization">
 </p>
 <br/>
 
