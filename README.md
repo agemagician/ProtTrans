@@ -19,8 +19,15 @@ Have a look at our paper [ProtTrans: cracking the language of life’s code thro
 
 This repository will be updated regulary with **new pre-trained models for proteins** as part of supporting **bioinformatics** community in general, and **Covid-19 research** specifically through our [Accelerate SARS-CoV-2 research with transfer learning using pre-trained language modeling models](https://covid19-hpc-consortium.org/projects/5ed56e51a21132007ebf57bf) project.
 
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+* [ProtTrans Models Usage](🚀-Usage)
+* [Community and Contributions](❤️-Community-and-Contributions)
 
-## 🚀&nbsp; Installation and Usage
+
+## Test
+
+## 🚀&nbsp; Usage
 
 How to use.
 
