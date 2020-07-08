@@ -17,6 +17,7 @@ Have a look at our paper [ProtTrans: cracking the language of life’s code thro
 </p>
 <br/>
 
+
 This repository will be updated regulary with **new pre-trained models for proteins** as part of supporting **bioinformatics** community in general, and **Covid-19 research** specifically through our [Accelerate SARS-CoV-2 research with transfer learning using pre-trained language modeling models](https://covid19-hpc-consortium.org/projects/5ed56e51a21132007ebf57bf) project.
 
 Table of Contents
@@ -29,6 +30,8 @@ Table of Contents
 * [ 📫&nbsp; Have a question? ](#question)
 * [ 🤝&nbsp; Found a bug? ](#bug)
 * [ ✅&nbsp; Requirements ](#requirements)
+* [ 🤵&nbsp; Team ](#team)
+* [ 💰&nbsp; Sponsor ](#sponsor)
 * [ 📘&nbsp; License ](#license)
 * [ ✏️&nbsp; Citation ](#citation)
 
@@ -65,6 +68,31 @@ Feel free to **file a new issue** with a respective title and description on the
 ## ✅&nbsp; Requirements
 
 For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch](https://github.com/pytorch/pytorch) and [Transformers](https://github.com/huggingface/transformers) library from huggingface is needed. For model visualization, you need to install [BertViz](https://github.com/jessevig/bertviz) library.
+
+<a name="team"></a>
+## 🤵&nbsp; Team
+
+<a name="sponsor"></a>
+## 💰&nbsp; Sponsor
+<div id="banner" style="overflow: hidden;justify-content:space-around;display:table-cell; vertical-align:middle; text-align:center">
+  <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+      <img width="14%" src="https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true" alt="nvidia logo">
+  </div>
+
+  <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+      <img width="22%" src="https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true" alt="google cloud logo">
+  </div>
+
+  <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+      <img width="20%" src="https://github.com/agemagician/ProtTrans/blob/master/images/Oak_Ridge_National_Laboratory_logo.svg.png?raw=true" alt="ornl logo">
+  </div>
+  
+  <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
+      <img width="12%" src="https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true" alt="software campus logo">
+  </div>
+  
+</div>
+
 
 <a name="license"></a>
 ## 📘&nbsp; License
