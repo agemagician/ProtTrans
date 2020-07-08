@@ -138,6 +138,10 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 <a name="team"></a>
 ## 🤵&nbsp; Team
 
+Ahmed Elnaggar       |      Michael Heinzinger  |  Christian Dallago | Burkhard Rost
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/MichaelHeinzinger-2.jpg?raw=true"> | <img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/christiandallago.png?raw=true"> | <img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> 
+
 <a name="sponsor"></a>
 ## 💰&nbsp; Sponsor
 
