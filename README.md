@@ -58,7 +58,7 @@ How to use.
 <a name="q3"></a>
  * <b>🧬&nbsp; Secondary Structure Prediction (Q3):</b><br/>
  
-|                            |       CASP12       |       TS115      |       CB513      |
+|          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
 | ProtBert                   |         75         |        83        |        81        |
 | ProtAlbert                 |         74         |        82        |        79        |
@@ -73,7 +73,7 @@ How to use.
 <a name="q8"></a>
  * <b>🧬&nbsp; Secondary Structure Prediction (Q8):</b><br/>
  
-|                            |       CASP12       |       TS115      |       CB513      |
+|          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
 | ProtBert                   |         63         |        72        |        66        |
 | ProtAlbert                 |         62         |        70        |        65        |
@@ -88,7 +88,7 @@ How to use.
 <a name="q2"></a>
  * <b>🧬&nbsp; Membrane-bound vs Water-soluble (Q2):</b><br/>
  
-|                            |       DeepLoc      |
+|          Model             |       DeepLoc      |
 | -------------------------- | :----------------: |
 | ProtBert                   |         89         |
 | ProtAlbert                 |         88         |
@@ -103,7 +103,7 @@ How to use.
 <a name="q10"></a>
  * <b>🧬&nbsp; Subcellular Localization (Q10):</b><br/>
  
-|                            |       DeepLoc      |
+|          Model             |      DeepLoc      |
 | -------------------------- | :----------------: |
 | ProtBert                   |         74         |
 | ProtAlbert                 |         74         |
@@ -140,6 +140,8 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 
 <a name="sponsor"></a>
 ## 💰&nbsp; Sponsor
+
+
 <div id="banner" style="overflow: hidden;justify-content:space-around;display:table-cell; vertical-align:middle; text-align:center">
   <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
       <img width="14%" src="https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true" alt="nvidia logo">
@@ -158,6 +160,12 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
   </div>
   
 </div>
+
+
+Nvidia       |      Google  |  ORNL | Software Campus
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/Oak_Ridge_National_Laboratory_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
+
 
 
 <a name="license"></a>
