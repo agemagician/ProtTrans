@@ -30,6 +30,7 @@ Table of Contents
 * [ 🤝&nbsp; Found a bug? ](#bug)
 * [ ✅&nbsp; Requirements ](#requirements)
 * [ 📘&nbsp; License ](#license)
+* [ ✏️&nbsp; Citation ](#citation)
 
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
@@ -68,3 +69,16 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 <a name="license"></a>
 ## 📘&nbsp; License
 The ProtTrans pretrained models are released under the under terms of the [MIT License](LICENSE).
+
+<a name="citation"></a>
+## ✏️&nbsp; Citation
+If you use this code or our pretrained models for your publication, please cite the original paper:
+```
+@inproceedings{elnnaggar2020prottrans,
+  title = {{ProtTrans}: towards cracking the language of life’s code through self-supervised deep learning and high performance computing},
+  author = {Ahmed Elnaggar, Michael, .....},
+  booktitle = {Arxiv},
+  year = {2020},
+  url = {https://arxiv/.....}
+}
+```
