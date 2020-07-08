@@ -37,13 +37,13 @@ Table of Contents
 How to use.
 
 <a name="feature-extraction"></a>
- * 🧬&nbsp; Feature Extraction:  
+ * <b>🧬&nbsp; Feature Extraction:</b><br/>
 
 <a name="visualization"></a>
-* 🧐&nbsp; Visualization:  
+* <b>🧐&nbsp; Visualization:</b><br/> 
 
 <a name="benchmark"></a>
-* 📈&nbsp; Benchmark:  
+* <b>📈&nbsp; Benchmark:</b><br/> 
 
 <a name="community"></a>
 ## ❤️&nbsp; Community and Contributions
