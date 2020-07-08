@@ -23,6 +23,11 @@ Table of Contents
   * [ 🧬&nbsp; Feature Extraction ](#feature-extraction)
   * [ 🧐&nbsp; Visualization ](#visualization)
   * [ 📈&nbsp; Benchmark ](#benchmark)
+* [ 📊&nbsp; Expected Results  ](#results)
+  * [ 🧬&nbsp; Secondary Structure Prediction (Q3) ](#q3)
+  * [ 🧬&nbsp; Secondary Structure Prediction (Q8) ](#q8)
+  * [ 🧬&nbsp; Membrane-bound vs Water-soluble (Q2) ](#q2)
+  * [ 🧬&nbsp; Subcellular Localization (Q10) ](#q10)
 * [ ❤️&nbsp; Community and Contributions ](#community)
 * [ 📫&nbsp; Have a question? ](#question)
 * [ 🤝&nbsp; Found a bug? ](#bug)
@@ -45,6 +50,70 @@ How to use.
 
 <a name="benchmark"></a>
 * <b>📈&nbsp; Benchmark:</b><br/> 
+
+
+<a name="results"></a>
+## 📊&nbsp; Expected Results 
+
+<a name="q3"></a>
+ * <b>🧬&nbsp; Secondary Structure Prediction (Q3):</b><br/>
+ 
+|                            |       CASP12       |       TS115      |       CB513      |
+| -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtBert                   |         75         |        83        |        81        |
+| ProtAlbert                 |         74         |        82        |        79        |
+| ProtXLNet                  |         73         |        81        |        78        |
+| ProtElectra-Generator      |         73         |        78        |        76        |
+| ProtElectra-Discriminator  |         74         |        81        |        79        |
+| ProtTXL                    |         71         |        76        |        74        |
+| ProtTXL-BFD                |         72         |        75        |        77        |
+| ProtT5                     |     coming soon    |   coming soon    |   coming soon    |
+| ProtBert-BFD               |     coming soon    |   coming soon    |   coming soon    |
+
+<a name="q8"></a>
+ * <b>🧬&nbsp; Secondary Structure Prediction (Q8):</b><br/>
+ 
+|                            |       CASP12       |       TS115      |       CB513      |
+| -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtBert                   |         63         |        72        |        66        |
+| ProtAlbert                 |         62         |        70        |        65        |
+| ProtXLNet                  |         62         |        69        |        63        |
+| ProtElectra-Generator      |     coming soon    |   coming soon    |   coming soon    |
+| ProtElectra-Discriminator  |     coming soon    |   coming soon    |   coming soon    |
+| ProtTXL                    |         59         |        64        |        59        |
+| ProtTXL-BFD                |         60         |        65        |        60        |
+| ProtT5                     |     coming soon    |   coming soon    |   coming soon    |
+| ProtBert-BFD               |     coming soon    |   coming soon    |   coming soon    |
+
+<a name="q2"></a>
+ * <b>🧬&nbsp; Membrane-bound vs Water-soluble (Q2):</b><br/>
+ 
+|                            |       DeepLoc      |
+| -------------------------- | :----------------: |
+| ProtBert                   |         89         |
+| ProtAlbert                 |         88         |
+| ProtXLNet                  |         87         |
+| ProtElectra-Generator      |     coming soon    |
+| ProtElectra-Discriminator  |     coming soon    |
+| ProtTXL                    |         85         |
+| ProtTXL-BFD                |         86         |
+| ProtT5                     |     coming soon    |
+| ProtBert-BFD               |     coming soon    |
+
+<a name="q10"></a>
+ * <b>🧬&nbsp; Subcellular Localization (Q10):</b><br/>
+ 
+|                            |       DeepLoc      |
+| -------------------------- | :----------------: |
+| ProtBert                   |         74         |
+| ProtAlbert                 |         74         |
+| ProtXLNet                  |         68         |
+| ProtElectra-Generator      |     coming soon    |
+| ProtElectra-Discriminator  |     coming soon    |
+| ProtTXL                    |         66         |
+| ProtTXL-BFD                |         65         |
+| ProtT5                     |     coming soon    |
+| ProtBert-BFD               |     coming soon    |
 
 <a name="community"></a>
 ## ❤️&nbsp; Community and Contributions
