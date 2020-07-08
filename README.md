@@ -1,8 +1,5 @@
 <br/>
-<p align="center">
-  <h1 style="text-align: center;"><span dir="ltr"><code>ProtTrans</code></span></h1>
-</p>
-
+<h1 align="center">ProtTrans</h1>
 <br/>
 
 <br/>
