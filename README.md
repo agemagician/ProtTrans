@@ -33,7 +33,7 @@ Table of Contents
 * [ 🤝&nbsp; Found a bug? ](#bug)
 * [ ✅&nbsp; Requirements ](#requirements)
 * [ 🤵&nbsp; Team ](#team)
-* [ 💰&nbsp; Sponsor ](#sponsor)
+* [ 💰&nbsp; Sponsors ](#sponsors)
 * [ 📘&nbsp; License ](#license)
 * [ ✏️&nbsp; Citation ](#citation)
 
@@ -138,12 +138,26 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 <a name="team"></a>
 ## 🤵&nbsp; Team
 
-Ahmed Elnaggar       |      Michael Heinzinger  |  Christian Dallago | Burkhard Rost
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/MichaelHeinzinger-2.jpg?raw=true"> | <img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/christiandallago.png?raw=true"> | <img width=100/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> 
+ * <b>Technical University of Munich:</b><br/>
+ 
+| Ahmed Elnaggar       |      Michael Heinzinger  |  Christian Dallago | Ghalia Rihawi | Burkhard Rost |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/ElnaggarAhmend.jpg?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/MichaelHeinzinger-2.jpg?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/christiandallago.png?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/female.png?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/B.Rost.jpg?raw=true"> |
 
-<a name="sponsor"></a>
-## 💰&nbsp; Sponsor
+ * <b>Med AI Technology:</b><br/>
+
+| Yu Wang       |
+|:-------------------------:|
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/yu-wang.jpeg?raw=true"> |
+
+* <b>Google:</b><br/>
+
+| Llion Jones       |
+|:-------------------------:|
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Llion-Jones.jpg?raw=true"> |
+
+<a name="sponsors"></a>
+## 💰&nbsp; Sponsors
 
 <!--
 <div id="banner" style="overflow: hidden;justify-content:space-around;display:table-cell; vertical-align:middle; text-align:center">
