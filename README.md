@@ -22,8 +22,8 @@ This repository will be updated regulary with **new pre-trained models for prote
 Table of Contents
 =================
 * [ 🚀&nbsp; Usage ](#usage)
-  * [ 🚀&nbsp; Feature Extraction ](#feature-extraction)
-  * [ 🚀&nbsp; Visualization ](#visualization)
+  * [ 🧬&nbsp; Feature Extraction ](#feature-extraction)
+  * [ 🧐&nbsp; Visualization ](#visualization)
   * [ 📈&nbsp; Benchmark ](#benchmark)
 * [ ❤️&nbsp; Community and Contributions ](#community)
 * [ 📫&nbsp; Have a question? ](#question)
@@ -37,10 +37,10 @@ Table of Contents
 How to use.
 
 <a name="feature-extraction"></a>
- * 🚀&nbsp; Feature Extraction:  
+ * 🧬&nbsp; Feature Extraction:  
 
 <a name="visualization"></a>
-* 🚀&nbsp; Visualization:  
+* 🧐&nbsp; Visualization:  
 
 <a name="benchmark"></a>
 * 📈&nbsp; Benchmark:  
