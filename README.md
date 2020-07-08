@@ -141,7 +141,7 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 <a name="sponsor"></a>
 ## 💰&nbsp; Sponsor
 
-
+<!--
 <div id="banner" style="overflow: hidden;justify-content:space-around;display:table-cell; vertical-align:middle; text-align:center">
   <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
       <img width="14%" src="https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true" alt="nvidia logo">
@@ -160,7 +160,7 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
   </div>
   
 </div>
-
+-->
 
 Nvidia       |      Google  |  ORNL | Software Campus
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
