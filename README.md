@@ -44,18 +44,18 @@ How to use ProtTrans:
 
 <a name="feature-extraction"></a>
  * <b>🧬&nbsp; Feature Extraction:</b><br/>
- Please check: https://github.com/agemagician/ProtTrans/tree/master/Embedding . 
- More information coming soon.
+ Please check:
+ [Embedding Section](https://github.com/agemagician/ProtTrans/tree/master/Embedding). More information coming soon.
  
 <a name="visualization"></a>
 * <b>🧐&nbsp; Visualization:</b><br/> 
- Please check: https://github.com/agemagician/ProtTrans/tree/master/Visualization . 
- More information coming soon.
+Please check:
+ [Visualization Section](https://github.com/agemagician/ProtTrans/tree/master/Visualization). More information coming soon.
  
 <a name="benchmark"></a>
 * <b>📈&nbsp; Benchmark:</b><br/> 
- Please check: https://github.com/agemagician/ProtTrans/tree/master/Benchmark .
- More information coming soon.
+Please check:
+ [Benchmark Section](https://github.com/agemagician/ProtTrans/tree/master/Benchmark). More information coming soon.
 
 <a name="results"></a>
 ## 📊&nbsp; Expected Results 
