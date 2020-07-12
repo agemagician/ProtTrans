@@ -40,17 +40,22 @@ Table of Contents
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
 
-How to use.
+How to use ProtTrans:
 
 <a name="feature-extraction"></a>
  * <b>🧬&nbsp; Feature Extraction:</b><br/>
-
+ Please check: https://github.com/agemagician/ProtTrans/tree/master/Embedding . 
+ More information coming soon.
+ 
 <a name="visualization"></a>
 * <b>🧐&nbsp; Visualization:</b><br/> 
-
+ Please check: https://github.com/agemagician/ProtTrans/tree/master/Visualization . 
+ More information coming soon.
+ 
 <a name="benchmark"></a>
 * <b>📈&nbsp; Benchmark:</b><br/> 
-
+ Please check: https://github.com/agemagician/ProtTrans/tree/master/Benchmark .
+ More information coming soon.
 
 <a name="results"></a>
 ## 📊&nbsp; Expected Results 
@@ -155,6 +160,18 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 | Llion Jones       |
 |:-------------------------:|
 | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Llion-Jones.jpg?raw=true"> |
+
+* <b>Nvidia:</b><br/>
+
+| Tom Gibbs       | Tamas Feher | Christoph Angerer |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> | <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> | <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> |
+
+* <b>ORNL:</b><br/>
+
+| Debsindhu Bhowmik       |
+|:-------------------------:|
+| <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> |
 
 <a name="sponsors"></a>
 ## 💰&nbsp; Sponsors
