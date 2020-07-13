@@ -211,11 +211,16 @@ The ProtTrans pretrained models are released under the under terms of the [MIT L
 ## ✏️&nbsp; Citation
 If you use this code or our pretrained models for your publication, please cite the original paper:
 ```
-@inproceedings{elnnaggar2020prottrans,
-  title = {{ProtTrans}: towards cracking the language of life’s code through self-supervised deep learning and high performance computing},
-  author = {Ahmed Elnaggar, Michael, .....},
-  booktitle = {Arxiv},
-  year = {2020},
-  url = {https://arxiv/.....}
+@article {Elnaggar2020.07.12.199554,
+	author = {Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rihawi, Ghalia and Wang, Yu and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and BHOWMIK, DEBSINDHU and Rost, Burkhard},
+	title = {ProtTrans: Towards Cracking the Language of Life{\textquoteright}s Code Through Self-Supervised Deep Learning and High Performance Computing},
+	elocation-id = {2020.07.12.199554},
+	year = {2020},
+	doi = {10.1101/2020.07.12.199554},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Motivation: Natural Language Processing (NLP) continues improving substantially through auto-regressive (AR) and auto-encoding (AE) Language Models (LMs). These LMs require expensive computing resources for self-supervised or un-supervised learning from huge unlabelled text corpora. The information learned is transferred through so-called embeddings to downstream prediction tasks. Computational biology and bioinformatics provide vast gold-mines of structured and sequentially ordered text data leading to extraordinarily successful protein sequence LMs that promise new frontiers for generative and predictive tasks at low inference cost. As recent NLP advances link corpus size to model size and accuracy, we addressed two questions: (1) To which extent can High-Performance Computing (HPC) up-scale protein LMs to larger databases and larger models? (2) To which extent can LMs extract features from single proteins to get closer to the performance of methods using evolutionary information? Methodology: Here, we trained two auto-regressive language models (Transformer-XL and XLNet) and two auto-encoder models (BERT and Albert) on 80 billion amino acids from 200 million protein sequences (UniRef100) and one language model (Transformer-XL) on 393 billion amino acids from 2.1 billion protein sequences taken from the Big Fat Database (BFD), today{\textquoteright}s largest set of protein sequences (corresponding to 22- and 112-times, respectively of the entire English Wikipedia). The LMs were trained on the Summit supercomputer, using 936 nodes with 6 GPUs each (in total 5616 GPUs) and one TPU Pod, using V3-512 cores. Results: We validated the feasibility of training big LMs on proteins and the advantage of up-scaling LMs to larger models supported by more data. The latter was assessed by predicting secondary structure in three- and eight-states (Q3=75-83, Q8=63-72), localization for 10 cellular compartments (Q10=74) and whether a protein is membrane-bound or water-soluble (Q2=89). Dimensionality reduction revealed that the LM-embeddings from unlabelled data (only protein sequences) captured important biophysical properties of the protein alphabet, namely the amino acids, and their well orchestrated interplay in governing the shape of proteins. In the analogy of NLP, this implied having learned some of the grammar of the language of life realized in protein sequences. The successful up-scaling of protein LMs through HPC slightly reduced the gap between models trained on evolutionary information and LMs. Additionally, our results highlighted the importance of bi-directionality when processing proteins as the uni-directional TransformerXL was outperformed by its bi-directional counterparts;Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2020/07/12/2020.07.12.199554},
+	eprint = {https://www.biorxiv.org/content/early/2020/07/12/2020.07.12.199554.full.pdf},
+	journal = {bioRxiv}
 }
 ```
