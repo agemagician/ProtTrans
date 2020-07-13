@@ -165,13 +165,13 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 
 | Tom Gibbs       | Tamas Feher | Christoph Angerer |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> | <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> | <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> |
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Tom-Gibbs.png?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Tamas-Feher.jpeg?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Christoph-Angerer.jpg?raw=true"> |
 
 * <b>ORNL:</b><br/>
 
 | Debsindhu Bhowmik       |
 |:-------------------------:|
-| <img width=120/ src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unknown_Man_Emoji_large.png?v=1571606038"> |
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Debsindhu-Bhowmik.jpg?raw=true"> |
 
 <a name="sponsors"></a>
 ## 💰&nbsp; Sponsors
