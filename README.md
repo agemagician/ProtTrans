@@ -19,6 +19,7 @@ This repository will be updated regulary with **new pre-trained models for prote
 
 Table of Contents
 =================
+* [ ⌛️&nbsp; Models Availability](#models)
 * [ 🚀&nbsp; Usage ](#usage)
   * [ 🧬&nbsp; Feature Extraction ](#feature-extraction)
   * [ 🧐&nbsp; Visualization ](#visualization)
@@ -36,6 +37,22 @@ Table of Contents
 * [ 💰&nbsp; Sponsors ](#sponsors)
 * [ 📘&nbsp; License ](#license)
 * [ ✏️&nbsp; Citation ](#citation)
+
+<a name="models"></a>
+## ⌛️&nbsp; Models Availability
+
+|          Model             |    Availability    |
+| -------------------------- | :----------------: |
+| ProtBert-BFD               |     coming soon    |
+| ProtBert                   |       Public       |
+| ProtAlbert                 |       Public       |
+| ProtXLNet                  |       Public       |
+| ProtElectra-Generator      |     coming soon    |
+| ProtElectra-Discriminator  |     coming soon    |
+| ProtTXL                    |     coming soon    |
+| ProtTXL-BFD                |     coming soon    |
+| ProtT5                     |      Training      |
+
 
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
@@ -65,6 +82,7 @@ Please check:
  
 |          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtBert-BFD               |         76         |        84        |        83        |
 | ProtBert                   |         75         |        83        |        81        |
 | ProtAlbert                 |         74         |        82        |        79        |
 | ProtXLNet                  |         73         |        81        |        78        |
@@ -72,14 +90,13 @@ Please check:
 | ProtElectra-Discriminator  |         74         |        81        |        79        |
 | ProtTXL                    |         71         |        76        |        74        |
 | ProtTXL-BFD                |         72         |        75        |        77        |
-| ProtT5                     |     coming soon    |   coming soon    |   coming soon    |
-| ProtBert-BFD               |     coming soon    |   coming soon    |   coming soon    |
 
 <a name="q8"></a>
  * <b>🧬&nbsp; Secondary Structure Prediction (Q8):</b><br/>
  
 |          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtBert-BFD               |         65         |        73        |        70        |
 | ProtBert                   |         63         |        72        |        66        |
 | ProtAlbert                 |         62         |        70        |        65        |
 | ProtXLNet                  |         62         |        69        |        63        |
@@ -87,14 +104,13 @@ Please check:
 | ProtElectra-Discriminator  |     coming soon    |   coming soon    |   coming soon    |
 | ProtTXL                    |         59         |        64        |        59        |
 | ProtTXL-BFD                |         60         |        65        |        60        |
-| ProtT5                     |     coming soon    |   coming soon    |   coming soon    |
-| ProtBert-BFD               |     coming soon    |   coming soon    |   coming soon    |
 
 <a name="q2"></a>
  * <b>🧬&nbsp; Membrane-bound vs Water-soluble (Q2):</b><br/>
  
 |          Model             |       DeepLoc      |
 | -------------------------- | :----------------: |
+| ProtBert-BFD               |         89         |
 | ProtBert                   |         89         |
 | ProtAlbert                 |         88         |
 | ProtXLNet                  |         87         |
@@ -102,14 +118,14 @@ Please check:
 | ProtElectra-Discriminator  |     coming soon    |
 | ProtTXL                    |         85         |
 | ProtTXL-BFD                |         86         |
-| ProtT5                     |     coming soon    |
-| ProtBert-BFD               |     coming soon    |
+
 
 <a name="q10"></a>
  * <b>🧬&nbsp; Subcellular Localization (Q10):</b><br/>
  
-|          Model             |      DeepLoc      |
+|          Model             |      DeepLoc       |
 | -------------------------- | :----------------: |
+| ProtBert-BFD               |         74         |
 | ProtBert                   |         74         |
 | ProtAlbert                 |         74         |
 | ProtXLNet                  |         68         |
@@ -117,8 +133,6 @@ Please check:
 | ProtElectra-Discriminator  |     coming soon    |
 | ProtTXL                    |         66         |
 | ProtTXL-BFD                |         65         |
-| ProtT5                     |     coming soon    |
-| ProtBert-BFD               |     coming soon    |
 
 <a name="community"></a>
 ## ❤️&nbsp; Community and Contributions
