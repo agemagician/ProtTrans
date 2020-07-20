@@ -22,6 +22,7 @@ Table of Contents
 * [ ⌛️&nbsp; Models Availability](#models)
 * [ 🚀&nbsp; Usage ](#usage)
   * [ 🧬&nbsp; Feature Extraction ](#feature-extraction)
+  * [ ⚗️&nbsp; Protein Sequences Generation ](#protein-generation)
   * [ 🧐&nbsp; Visualization ](#visualization)
   * [ 📈&nbsp; Benchmark ](#benchmark)
 * [ 📊&nbsp; Expected Results  ](#results)
@@ -63,6 +64,11 @@ How to use ProtTrans:
  * <b>🧬&nbsp; Feature Extraction:</b><br/>
  Please check:
  [Embedding Section](https://github.com/agemagician/ProtTrans/tree/master/Embedding). More information coming soon.
+ 
+<a name="protein-generation"></a>
+ * <b>⚗️&nbsp; Protein Sequences Generation:</b><br/>
+ Please check:
+ [Generate Section](https://github.com/agemagician/ProtTrans/tree/master/Generate). More information coming soon.
  
 <a name="visualization"></a>
 * <b>🧐&nbsp; Visualization:</b><br/> 
