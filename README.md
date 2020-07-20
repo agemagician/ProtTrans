@@ -44,7 +44,7 @@ Table of Contents
 
 |          Model             |    Availability    |
 | -------------------------- | :----------------: |
-| ProtBert-BFD               |     coming soon    |
+| ProtBert-BFD               |       Public       |
 | ProtBert                   |       Public       |
 | ProtAlbert                 |       Public       |
 | ProtXLNet                  |       Public       |
@@ -186,6 +186,13 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 | Tom Gibbs       | Tamas Feher | Christoph Angerer |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Tom-Gibbs.png?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Tamas-Feher.jpeg?raw=true"> | <img width=120/ src="https://github.com/agemagician/ProtTrans/blob/master/images/Christoph-Angerer.jpg?raw=true"> |
+
+* <b>Seoul National University:</b><br/>
+
+| Martin Steinegger       |
+|:-------------------------:|
+| <img width=120/ src="https://github.com/agemagician/ProtTrans/raw/master/images/Martin-Steinegger.png"> |
+
 
 * <b>ORNL:</b><br/>
 
