@@ -6,7 +6,7 @@
 
 [ProtTrans](https://github.com/agemagician/ProtTrans/) is providing **state of the art pre-trained models for proteins**. ProtTrans was trained on **thousands of GPUs from Summit** and **hundreds of Google TPUs** using various **Transformers Models**.
 
-Have a look at our paper [ProtTrans: cracking the language of life’s code through self-supervised deep learning and high performance computing](https://www.biorxiv.org/content/10.1101/2020.07.12.199554v1) for more information about our work. 
+Have a look at our paper [ProtTrans: cracking the language of life’s code through self-supervised deep learning and high performance computing](https://www.biorxiv.org/content/10.1101/2020.07.12.199554v2) for more information about our work. 
 
 <br/>
 <p align="center">
