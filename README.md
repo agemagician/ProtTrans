@@ -226,7 +226,7 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 
 Nvidia       |      Google  |  ORNL | Software Campus
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/471px-Google_%22G%22_Logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/Oak_Ridge_National_Laboratory_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
+![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/Oak_Ridge_National_Laboratory_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
 
 
 
