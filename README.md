@@ -210,7 +210,7 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
   </div>
 
   <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
-      <img width="22%" src="https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true" alt="google cloud logo">
+      <img width="22%" src="https://github.com/agemagician/ProtTrans/blob/master/images/Google-Logo.jpg?raw=true" alt="google cloud logo">
   </div>
 
   <div class="" style="max-width: 20%;max-height: 20%;display: inline-block;">
@@ -226,7 +226,7 @@ For protein feature extraction or fine-tuninng our pre-trained models, [Pytorch]
 
 Nvidia       |      Google  |  ORNL | Software Campus
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/google-cloud-logo.jpg?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/Oak_Ridge_National_Laboratory_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
+![](https://github.com/agemagician/ProtTrans/blob/master/images/1200px-Nvidia_image_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/Google-Logo.jpg?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/Oak_Ridge_National_Laboratory_logo.svg.png?raw=true)  |  ![](https://github.com/agemagician/ProtTrans/blob/master/images/SOFTWARE_CAMPUS_logo_cmyk.jpg?raw=true)
 
 
 
