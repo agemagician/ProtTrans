@@ -120,31 +120,31 @@ Please check:
 <a name="q2"></a>
  * <b>🧬&nbsp; Membrane-bound vs Water-soluble (Q2):</b><br/>
  
-|          Model             |       DeepLoc      |
-| -------------------------- | :----------------: |
-| ProtBert-BFD               |         89         |
-| ProtBert                   |         89         |
-| ProtAlbert                 |         88         |
-| ProtXLNet                  |         87         |
-| ProtElectra-Generator      |         85         |
-| ProtElectra-Discriminator  |         86         |
-| ProtTXL                    |         85         |
-| ProtTXL-BFD                |         86         |
+|          Model             |     DeepLoc (feature extraction)   |    DeepLoc (fine tuning)    |
+| -------------------------- | :--------------------------------: | :-------------------------: |
+| ProtBert-BFD               |                 89                 |              91             |
+| ProtBert                   |                 89                 |          comming soon       |
+| ProtAlbert                 |                 88                 |          comming soon       |
+| ProtXLNet                  |                 87                 |          comming soon       |
+| ProtElectra-Generator      |                 85                 |          comming soon       |
+| ProtElectra-Discriminator  |                 86                 |          comming soon       |
+| ProtTXL                    |                 85                 |          comming soon       |
+| ProtTXL-BFD                |                 86                 |          comming soon       |
 
 
 <a name="q10"></a>
  * <b>🧬&nbsp; Subcellular Localization (Q10):</b><br/>
  
-|          Model             |      DeepLoc       |
-| -------------------------- | :----------------: |
-| ProtBert-BFD               |         74         |
-| ProtBert                   |         74         |
-| ProtAlbert                 |         74         |
-| ProtXLNet                  |         68         |
-| ProtElectra-Generator      |         59         |
-| ProtElectra-Discriminator  |         70         |
-| ProtTXL                    |         66         |
-| ProtTXL-BFD                |         65         |
+|          Model             |     DeepLoc (feature extraction)   |    DeepLoc (fine tuning)    |
+| -------------------------- | :--------------------------------: | :-------------------------: |
+| ProtBert-BFD               |                 74                 |              78             |
+| ProtBert                   |                 74                 |          comming soon       |
+| ProtAlbert                 |                 74                 |          comming soon       |
+| ProtXLNet                  |                 68                 |          comming soon       |
+| ProtElectra-Generator      |                 59                 |          comming soon       |
+| ProtElectra-Discriminator  |                 70                 |          comming soon       |
+| ProtTXL                    |                 66                 |          comming soon       |
+| ProtTXL-BFD                |                 65                 |          comming soon       |
 
 <a name="community"></a>
 ## ❤️&nbsp; Community and Contributions
