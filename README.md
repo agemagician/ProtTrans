@@ -106,8 +106,8 @@ Please check:
 | ProtBert                   |         63         |        72        |        66        |
 | ProtAlbert                 |         62         |        70        |        65        |
 | ProtXLNet                  |         62         |        69        |        63        |
-| ProtElectra-Generator      |     coming soon    |   coming soon    |   coming soon    |
-| ProtElectra-Discriminator  |     coming soon    |   coming soon    |   coming soon    |
+| ProtElectra-Generator      |         60         |        66        |        61        |
+| ProtElectra-Discriminator  |         62         |        69        |        65        |
 | ProtTXL                    |         59         |        64        |        59        |
 | ProtTXL-BFD                |         60         |        65        |        60        |
 
@@ -120,8 +120,8 @@ Please check:
 | ProtBert                   |         89         |
 | ProtAlbert                 |         88         |
 | ProtXLNet                  |         87         |
-| ProtElectra-Generator      |     coming soon    |
-| ProtElectra-Discriminator  |     coming soon    |
+| ProtElectra-Generator      |         85         |
+| ProtElectra-Discriminator  |         86         |
 | ProtTXL                    |         85         |
 | ProtTXL-BFD                |         86         |
 
@@ -135,8 +135,8 @@ Please check:
 | ProtBert                   |         74         |
 | ProtAlbert                 |         74         |
 | ProtXLNet                  |         68         |
-| ProtElectra-Generator      |     coming soon    |
-| ProtElectra-Discriminator  |     coming soon    |
+| ProtElectra-Generator      |         59         |
+| ProtElectra-Discriminator  |         70         |
 | ProtTXL                    |         66         |
 | ProtTXL-BFD                |         65         |
 
