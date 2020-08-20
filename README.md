@@ -123,7 +123,7 @@ Please check:
 |          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |
 | -------------------------- | :----------------: | :----------------: |
 | ProtBert-BFD               |         89         |         91         |
-| ProtBert                   |         89         |    comming soon    |
+| ProtBert                   |         89         |         91         |
 | ProtAlbert                 |         88         |    comming soon    |
 | ProtXLNet                  |         87         |    comming soon    |
 | ProtElectra-Generator      |         85         |    comming soon    |
