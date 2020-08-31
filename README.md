@@ -43,12 +43,12 @@ Table of Contents
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
 
-|          Model             |    Availability    |
+|          Model             |       Pytorch      |
 | -------------------------- | :----------------: |
-| ProtBert-BFD               |       Public       |
-| ProtBert                   |       Public       |
-| ProtAlbert                 |       Public       |
-| ProtXLNet                  |       Public       |
+| ProtBert-BFD               |  [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert_bfd/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/vocab.txt)      |
+| ProtBert                   |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert/vocab.txt)        |
+| ProtAlbert                 |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_albert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_albert/pytorch_model.bin) -  [SPM](https://cdn.huggingface.co/Rostlab/prot_albert/spiece.model)        |
+| ProtXLNet                  |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_xlnet/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_xlnet/pytorch_model.bin) -  [SPM](https://cdn.huggingface.co/Rostlab/prot_xlnet/spiece.model)        |
 | ProtElectra-Generator      |     coming soon    |
 | ProtElectra-Discriminator  |     coming soon    |
 | ProtTXL                    |     coming soon    |
