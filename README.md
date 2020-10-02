@@ -45,6 +45,7 @@ Table of Contents
 
 |          Model             |       Pytorch      |
 | -------------------------- | :----------------: |
+| ProtT5-XL-BFD              |     [Download](https://www.dropbox.com/sh/0e7weo5l6g1uvqi/AADBZN_vuawdR3YOUOzZRo8Pa?dl=0)    |
 | ProtBert-BFD               |  [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert_bfd/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/vocab.txt)      |
 | ProtBert                   |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert/vocab.txt)        |
 | ProtAlbert                 |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_albert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_albert/pytorch_model.bin) -  [SPM](https://cdn.huggingface.co/Rostlab/prot_albert/spiece.model)        |
@@ -53,7 +54,6 @@ Table of Contents
 | ProtElectra-Discriminator  |     coming soon    |
 | ProtTXL                    |     coming soon    |
 | ProtTXL-BFD                |     coming soon    |
-| ProtT5                     |      Training      |
 
 
 <a name="usage"></a>
@@ -94,6 +94,7 @@ Please check:
  
 |          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtT5-XL-BFD              |         77         |        85        |        84        |
 | ProtBert-BFD               |         76         |        84        |        83        |
 | ProtBert                   |         75         |        83        |        81        |
 | ProtAlbert                 |         74         |        82        |        79        |
@@ -108,6 +109,7 @@ Please check:
  
 |          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtT5-XL-BFD              |         66         |        74        |        71        |
 | ProtBert-BFD               |         65         |        73        |        70        |
 | ProtBert                   |         63         |        72        |        66        |
 | ProtAlbert                 |         62         |        70        |        65        |
@@ -122,6 +124,7 @@ Please check:
  
 |          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |
 | -------------------------- | :----------------: | :----------------: |
+| ProtT5-XL-BFD              |         91         |    comming soon    |
 | ProtBert-BFD               |         89         |         91         |
 | ProtBert                   |         89         |         91         |
 | ProtAlbert                 |         88         |    comming soon    |
@@ -137,6 +140,7 @@ Please check:
  
 |          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |
 | -------------------------- | :----------------: | :----------------: |
+| ProtT5-XL-BFD              |         77         |    comming soon    |
 | ProtBert-BFD               |         74         |         78         |
 | ProtBert                   |         74         |         79         |
 | ProtAlbert                 |         74         |    comming soon    |
