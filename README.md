@@ -23,6 +23,7 @@ Table of Contents
 * [ 🚀&nbsp; Usage ](#usage)
   * [ 🧬&nbsp; Feature Extraction (FE)](#feature-extraction)
   * [ 💥&nbsp; Fine Tuning (FT)](#fine-tuning)
+  * [ 🧠&nbsp; Prediction](#prediction)
   * [ ⚗️&nbsp; Protein Sequences Generation ](#protein-generation)
   * [ 🧐&nbsp; Visualization ](#visualization)
   * [ 📈&nbsp; Benchmark ](#benchmark)
@@ -71,6 +72,11 @@ How to use ProtTrans:
  Please check:
  [Fine Tuning Section](https://github.com/agemagician/ProtTrans/tree/master/Fine-Tuning). More information coming soon.
 
+<a name="prediction"></a>
+ * <b>🧠&nbsp; Prediction:</b><br/>
+ Please check:
+ [Prediction Section](https://github.com/agemagician/ProtTrans/tree/master/Prediction). More information coming soon.
+  
 <a name="protein-generation"></a>
  * <b>⚗️&nbsp; Protein Sequences Generation:</b><br/>
  Please check:
