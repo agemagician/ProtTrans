@@ -122,17 +122,17 @@ Please check:
 <a name="q2"></a>
  * <b>🧬&nbsp; Membrane-bound vs Water-soluble (Q2):</b><br/>
  
-|          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |
-| -------------------------- | :----------------: | :----------------: |
-| ProtT5-XL-BFD              |         91         |    comming soon    |
-| ProtBert-BFD               |         89         |         91         |
-| ProtBert                   |         89         |         91         |
-| ProtAlbert                 |         88         |    comming soon    |
-| ProtXLNet                  |         87         |    comming soon    |
-| ProtElectra-Generator      |         85         |    comming soon    |
-| ProtElectra-Discriminator  |         86         |    comming soon    |
-| ProtTXL                    |         85         |    comming soon    |
-| ProtTXL-BFD                |         86         |    comming soon    |
+|          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |      Prediction    |
+| -------------------------- | :----------------: | :----------------: | :----------------: |
+| ProtT5-XL-BFD              |         91         |    comming soon    |    comming soon    |
+| ProtBert-BFD               |         89         |         91         |  [Online Prediction](https://huggingface.co/Rostlab/prot_bert_bfd_membrane?text=M+G+L+P+V+S+W+A+P+P+A+L+W+V+L+G+C+C+A+L+L+L+S+L+W+A+L+C+T+A+C+R+R+P+E+D+A+V+A+P+R+K+R+A+R+R+Q+R+A+R+L+Q+G+S+A+T+A+A+E+A+S+L+L+R+R+T+H+L+C+S+L+S+K+S+D+T+R+L+H+E+L+H+R+G+P+R+S+S+R+A+L+R+P+A+S+M+D+L+L+R+P+H+W+L+E+V+S+R+D+I+T+G+P+Q+A+A+P+S+A+F+P+H+Q+E+L+P+R+A+L+P+A+A+A+A+T+A+G+C+A+G+L+E+A+T+Y+S+N+V+G+L+A+A+L+P+G+V+S+L+A+A+S+P+V+V+A+E+Y+A+R+V+Q+K+R+K+G+T+H+R+S+P+Q+E+P+Q+Q+G+K+T+E+V+T+P+A+A+Q+V+D+V+L+Y+S+R+V+C+K+P+K+R+R+D+P+G+P+T+T+D+P+L+D+P+K+G+Q+G+A+I+L+A+L+A+G+D+L+A+Y+Q+T+L+P+L+R+A+L+D+V+D+S+G+P+L+E+N+V+Y+E+S+I+R+E+L+G+D+P+A+G+R+S+S+T+C+G+A+G+T+P+P+A+S+S+C+P+S+L+G+R+G+W+R+P+L+P+A+S+L+P) |
+| ProtBert                   |         89         |         91         |    comming soon    |
+| ProtAlbert                 |         88         |    comming soon    |    comming soon    |
+| ProtXLNet                  |         87         |    comming soon    |    comming soon    |
+| ProtElectra-Generator      |         85         |    comming soon    |    comming soon    |
+| ProtElectra-Discriminator  |         86         |    comming soon    |    comming soon    |
+| ProtTXL                    |         85         |    comming soon    |    comming soon    |
+| ProtTXL-BFD                |         86         |    comming soon    |    comming soon    |
 
 
 <a name="q10"></a>
