@@ -246,7 +246,7 @@ Nvidia       |      Google  |      Google  | ORNL | Software Campus
 
 <a name="license"></a>
 ## 📘&nbsp; License
-The ProtTrans pretrained models are released under the under terms of the [MIT License](LICENSE).
+The ProtTrans pretrained models are released under the under terms of the [Academic Free License v3.0 License](https://choosealicense.com/licenses/afl-3.0/).
 
 <a name="citation"></a>
 ## ✏️&nbsp; Citation
