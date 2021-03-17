@@ -46,12 +46,12 @@ Table of Contents
 
 |          Model             |       Pytorch      |
 | -------------------------- | :----------------: |
-| ProtT5-XL-UniRef50         |       [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  |
-| ProtT5-XL-BFD              |     [Download](https://www.dropbox.com/sh/0e7weo5l6g1uvqi/AADBZN_vuawdR3YOUOzZRo8Pa?dl=0)    |
-| ProtBert-BFD               |  [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert_bfd/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/vocab.txt)      |
-| ProtBert                   |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert/vocab.txt)        |
-| ProtAlbert                 |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_albert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_albert/pytorch_model.bin) -  [SPM](https://cdn.huggingface.co/Rostlab/prot_albert/spiece.model)        |
-| ProtXLNet                  |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_xlnet/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_xlnet/pytorch_model.bin) -  [SPM](https://cdn.huggingface.co/Rostlab/prot_xlnet/spiece.model)        |
+| ProtT5-XL-UniRef50         |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  |
+| ProtT5-XL-BFD              |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       |
+| ProtBert-BFD               |  [Download](https://huggingface.co/Rostlab/prot_bert_bfd/tree/main)        |
+| ProtBert                   |  [Download](https://huggingface.co/Rostlab/prot_bert/tree/main)            |
+| ProtAlbert                 |  [Download](https://huggingface.co/Rostlab/prot_albert/tree/main)          |
+| ProtXLNet                  |  [Download](https://huggingface.co/Rostlab/prot_xlnet/tree/main)           |
 | ProtElectra-Generator      |     coming soon    |
 | ProtElectra-Discriminator  |     coming soon    |
 | ProtTXL                    |     coming soon    |
