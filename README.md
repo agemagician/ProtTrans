@@ -46,6 +46,7 @@ Table of Contents
 
 |          Model             |       Pytorch      |
 | -------------------------- | :----------------: |
+| ProtT5-XL-UniRef50         |       [Config](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/config.json) -  [Model](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/pytorch_model.bin) -  [Vocab](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/resolve/main/spiece.model)        |
 | ProtT5-XL-BFD              |     [Download](https://www.dropbox.com/sh/0e7weo5l6g1uvqi/AADBZN_vuawdR3YOUOzZRo8Pa?dl=0)    |
 | ProtBert-BFD               |  [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert_bfd/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert_bfd/vocab.txt)      |
 | ProtBert                   |       [Config](https://s3.amazonaws.com/models.huggingface.co/bert/Rostlab/prot_bert/config.json) -  [Model](https://cdn.huggingface.co/Rostlab/prot_bert/pytorch_model.bin) -  [Vocab](https://cdn.huggingface.co/Rostlab/prot_bert/vocab.txt)        |
@@ -100,6 +101,7 @@ Please check:
  
 |          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtT5-XL-UniRef50         |         81         |        87        |        86        |
 | ProtT5-XL-BFD              |         77         |        85        |        84        |
 | ProtBert-BFD               |         76         |        84        |        83        |
 | ProtBert                   |         75         |        83        |        81        |
@@ -115,6 +117,7 @@ Please check:
  
 |          Model             |       CASP12       |       TS115      |       CB513      |
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
+| ProtT5-XL-UniRef50         |         70         |        77        |        74        |
 | ProtT5-XL-BFD              |         66         |        74        |        71        |
 | ProtBert-BFD               |         65         |        73        |        70        |
 | ProtBert                   |         63         |        72        |        66        |
@@ -130,6 +133,7 @@ Please check:
  
 |          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |      Prediction    |
 | -------------------------- | :----------------: | :----------------: | :----------------: |
+| ProtT5-XL-UniRef50         |         91         |    comming soon    |    comming soon    |
 | ProtT5-XL-BFD              |         91         |    comming soon    |    comming soon    |
 | ProtBert-BFD               |         89         |         91         |  [Online Prediction](https://huggingface.co/Rostlab/prot_bert_bfd_membrane?text=M+G+L+P+V+S+W+A+P+P+A+L+W+V+L+G+C+C+A+L+L+L+S+L+W+A+L+C+T+A+C+R+R+P+E+D+A+V+A+P+R+K+R+A+R+R+Q+R+A+R+L+Q+G+S+A+T+A+A+E+A+S+L+L+R+R+T+H+L+C+S+L+S+K+S+D+T+R+L+H+E+L+H+R+G+P+R+S+S+R+A+L+R+P+A+S+M+D+L+L+R+P+H+W+L+E+V+S+R+D+I+T+G+P+Q+A+A+P+S+A+F+P+H+Q+E+L+P+R+A+L+P+A+A+A+A+T+A+G+C+A+G+L+E+A+T+Y+S+N+V+G+L+A+A+L+P+G+V+S+L+A+A+S+P+V+V+A+E+Y+A+R+V+Q+K+R+K+G+T+H+R+S+P+Q+E+P+Q+Q+G+K+T+E+V+T+P+A+A+Q+V+D+V+L+Y+S+R+V+C+K+P+K+R+R+D+P+G+P+T+T+D+P+L+D+P+K+G+Q+G+A+I+L+A+L+A+G+D+L+A+Y+Q+T+L+P+L+R+A+L+D+V+D+S+G+P+L+E+N+V+Y+E+S+I+R+E+L+G+D+P+A+G+R+S+S+T+C+G+A+G+T+P+P+A+S+S+C+P+S+L+G+R+G+W+R+P+L+P+A+S+L+P) |
 | ProtBert                   |         89         |         91         |    comming soon    |
@@ -146,6 +150,7 @@ Please check:
  
 |          Model             |    DeepLoc (FE)    |    DeepLoc (FT)    |
 | -------------------------- | :----------------: | :----------------: |
+| ProtT5-XL-UniRef50         |         81         |    comming soon    |
 | ProtT5-XL-BFD              |         77         |    comming soon    |
 | ProtBert-BFD               |         74         |         78         |
 | ProtBert                   |         74         |         79         |
