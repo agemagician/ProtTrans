@@ -44,14 +44,14 @@ Table of Contents
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
 
-|          Model             |       Pytorch      |
-| -------------------------- | :----------------: |
-| ProtT5-XL-UniRef50         |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  |
-| ProtT5-XL-BFD              |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       |
-| ProtBert-BFD               |  [Download](https://huggingface.co/Rostlab/prot_bert_bfd/tree/main)        |
-| ProtBert                   |  [Download](https://huggingface.co/Rostlab/prot_bert/tree/main)            |
-| ProtAlbert                 |  [Download](https://huggingface.co/Rostlab/prot_albert/tree/main)          |
-| ProtXLNet                  |  [Download](https://huggingface.co/Rostlab/prot_xlnet/tree/main)           |
+|          Model             |                              Hugging Face                                  |                         Zenodo                |
+| -------------------------- | :------------------------------------------------------------------------: |:---------------------------------------------:|
+| ProtT5-XL-UniRef50         |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) |
+| ProtT5-XL-BFD              |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       | [Download](https://zenodo.org/record/4633924) |
+| ProtBert-BFD               |  [Download](https://huggingface.co/Rostlab/prot_bert_bfd/tree/main)        | [Download](https://zenodo.org/record/4633647) |
+| ProtBert                   |  [Download](https://huggingface.co/Rostlab/prot_bert/tree/main)            | [Download](https://zenodo.org/record/4633691) |
+| ProtAlbert                 |  [Download](https://huggingface.co/Rostlab/prot_albert/tree/main)          | [Download](https://zenodo.org/record/4633687) |
+| ProtXLNet                  |  [Download](https://huggingface.co/Rostlab/prot_xlnet/tree/main)           | [Download](https://zenodo.org/record/4633987) |
 | ProtElectra-Generator      |     coming soon    |
 | ProtElectra-Discriminator  |     coming soon    |
 | ProtTXL                    |     coming soon    |
