@@ -44,18 +44,22 @@ Table of Contents
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
 
-|          Model             |                              Hugging Face                                  |                         Zenodo                |
-| -------------------------- | :------------------------------------------------------------------------: |:---------------------------------------------:|
-| ProtT5-XL-UniRef50         |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) |
-| ProtT5-XL-BFD              |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       | [Download](https://zenodo.org/record/4633924) |
-| ProtBert-BFD               |  [Download](https://huggingface.co/Rostlab/prot_bert_bfd/tree/main)        | [Download](https://zenodo.org/record/4633647) |
-| ProtBert                   |  [Download](https://huggingface.co/Rostlab/prot_bert/tree/main)            | [Download](https://zenodo.org/record/4633691) |
-| ProtAlbert                 |  [Download](https://huggingface.co/Rostlab/prot_albert/tree/main)          | [Download](https://zenodo.org/record/4633687) |
-| ProtXLNet                  |  [Download](https://huggingface.co/Rostlab/prot_xlnet/tree/main)           | [Download](https://zenodo.org/record/4633987) |
-| ProtElectra-Generator      |     coming soon    |
-| ProtElectra-Discriminator  |     coming soon    |
-| ProtTXL                    |     coming soon    |
-| ProtTXL-BFD                |     coming soon    |
+|          Model                |                              Hugging Face                                  |                         Zenodo                |
+| ----------------------------- | :------------------------------------------------------------------------: |:---------------------------------------------:|
+| ProtT5-XL-UniRef50            |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) |
+| ProtT5-XL-BFD                 |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       | [Download](https://zenodo.org/record/4633924) |
+| ProtT5-XXL-UniRef50           |  [Download](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50/tree/main) | [Download](https://zenodo.org/record/4652717) |
+| ProtT5-XXL-BFD                |  [Download](https://huggingface.co/Rostlab/prot_t5_xxl_bfd/tree/main)      | [Download](https://zenodo.org/record/4635302) |
+| ProtBert-BFD                  |  [Download](https://huggingface.co/Rostlab/prot_bert_bfd/tree/main)        | [Download](https://zenodo.org/record/4633647) |
+| ProtBert                      |  [Download](https://huggingface.co/Rostlab/prot_bert/tree/main)            | [Download](https://zenodo.org/record/4633691) |
+| ProtAlbert                    |  [Download](https://huggingface.co/Rostlab/prot_albert/tree/main)          | [Download](https://zenodo.org/record/4633687) |
+| ProtXLNet                     |  [Download](https://huggingface.co/Rostlab/prot_xlnet/tree/main)           | [Download](https://zenodo.org/record/4633987) |
+| ProtElectra-Generator-BFD     |  [Download](https://huggingface.co/Rostlab/prot_electra_generator_bfd/tree/main)           | [Download](https://zenodo.org/record/4633813) |
+| ProtElectra-Discriminator-BFD |  [Download](https://huggingface.co/Rostlab/prot_electra_discriminator_bfd/tree/main)           | [Download](https://zenodo.org/record/4633717) |
+| ProtElectra-Generator         |     coming soon    |
+| ProtElectra-Discriminator     |     coming soon    |
+| ProtTXL                       |     coming soon    |
+| ProtTXL-BFD                   |     coming soon    |
 
 
 <a name="usage"></a>
