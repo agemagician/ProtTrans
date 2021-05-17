@@ -20,6 +20,7 @@ This repository will be updated regulary with **new pre-trained models for prote
 Table of Contents
 =================
 * [ ⌛️&nbsp; Models Availability](#models)
+* [ ⌛️&nbsp; Dataset Availability](#datasets)
 * [ 🚀&nbsp; Usage ](#usage)
   * [ 🧬&nbsp; Feature Extraction (FE)](#feature-extraction)
   * [ 💥&nbsp; Fine Tuning (FT)](#fine-tuning)
@@ -61,6 +62,17 @@ Table of Contents
 | ProtTXL                       |     coming soon    |
 | ProtTXL-BFD                   |     coming soon    |
 
+<a name="datasets"></a>
+## ⌛️&nbsp; Datasets Availability
+|          Dataset              |                                    Dropbox                                    |  
+| ----------------------------- | :---------------------------------------------------------------------------: |
+|	NEW364			|      [Download](https://www.dropbox.com/s/g49lb352ij4cnt7/NEW364.csv?dl=1)    |
+|	Netsurfp2       	| [Download](https://www.dropbox.com/s/98hovta9qjmmiby/Train_HHblits.csv?dl=1)  |
+|	CASP12			| [Download](https://www.dropbox.com/s/te0vn0t7ocdkra7/CASP12_HHblits.csv?dl=1) |
+|	CB513			| [Download](https://www.dropbox.com/s/9mat2fqqkcvdr67/CB513_HHblits.csv?dl=1) |
+|	TS115			| [Download](https://www.dropbox.com/s/68pknljl9la8ax3/TS115_HHblits.csv?dl=1) |
+|	DeepLoc Train		| [Download](https://www.dropbox.com/s/vgdqcl4vzqm9as0/deeploc_per_protein_train.csv?dl=1) |
+|	DeepLoc Test		| [Download](https://www.dropbox.com/s/jfzuokrym7nflkp/deeploc_per_protein_test.csv?dl=1) |
 
 <a name="usage"></a>
 ## 🚀&nbsp; Usage  
