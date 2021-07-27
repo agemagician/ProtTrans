@@ -274,7 +274,9 @@ The ProtTrans pretrained models are released under the under terms of the [Acade
 If you use this code or our pretrained models for your publication, please cite the original paper:
 ```
 @ARTICLE
-{9477085,  author={Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Yu, Wang and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard},  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+{9477085,
+author={Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Yu, Wang and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
 title={ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing},
 year={2021},
 volume={},
