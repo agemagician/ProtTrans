@@ -6,7 +6,7 @@
 
 [ProtTrans](https://github.com/agemagician/ProtTrans/) is providing **state of the art pre-trained models for proteins**. ProtTrans was trained on **thousands of GPUs from Summit** and **hundreds of Google TPUs** using various **Transformers Models**.
 
-Have a look at our paper [ProtTrans: cracking the language of life’s code through self-supervised deep learning and high performance computing](https://www.biorxiv.org/content/10.1101/2020.07.12.199554v2) for more information about our work. 
+Have a look at our paper [ProtTrans: cracking the language of life’s code through self-supervised deep learning and high performance computing](https://doi.org/10.1109/TPAMI.2021.3095381) for more information about our work. 
 
 <br/>
 <p align="center">
@@ -273,16 +273,12 @@ The ProtTrans pretrained models are released under the under terms of the [Acade
 ## ✏️&nbsp; Citation
 If you use this code or our pretrained models for your publication, please cite the original paper:
 ```
-@article {Elnaggar2020.07.12.199554,
-	author = {Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Wang, Yu and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and BHOWMIK, DEBSINDHU and Rost, Burkhard},
-	title = {ProtTrans: Towards Cracking the Language of Life{\textquoteright}s Code Through Self-Supervised Deep Learning and High Performance Computing},
-	elocation-id = {2020.07.12.199554},
-	year = {2021},
-	doi = {10.1101/2020.07.12.199554},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models taken from NLP. These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The LMs were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw protein LM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks. The first was a per-residue prediction of protein secondary structure (3-state accuracy Q3=81\%-87\%); the second were per-protein predictions of protein sub-cellular localization (ten-state accuracy: Q10=81\%) and membrane vs. water-soluble (2-state accuracy Q2=91\%). For the per-residue predictions the transfer of the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without using evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that protein LMs learned some of the grammar of the language of life. To facilitate future work, we released our models at \&lt;a href="https://github.com/agemagician/ProtTrans"\&gt;https://github.com/agemagician/ProtTrans\&lt;/a\&gt;.Competing Interest StatementThe authors have declared no competing interest.},
-	URL = {https://www.biorxiv.org/content/early/2021/05/04/2020.07.12.199554},
-	eprint = {https://www.biorxiv.org/content/early/2021/05/04/2020.07.12.199554.full.pdf},
-	journal = {bioRxiv}
-}
+@ARTICLE
+{9477085,  author={Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Yu, Wang and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and Bhowmik, Debsindhu and Rost, Burkhard},  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing},
+year={2021},
+volume={},
+number={},
+pages={1-1},
+doi={10.1109/TPAMI.2021.3095381}}
 ```
