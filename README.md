@@ -4,7 +4,7 @@
 
 <br/>
 
-[ProtTrans](https://github.com/agemagician/ProtTrans/) is providing **state of the art pre-trained models for proteins**. ProtTrans was trained on **thousands of GPUs from Summit** and **hundreds of Google TPUs** using various **Transformers Models**.
+[ProtTrans](https://github.com/agemagician/ProtTrans/) is providing **state of the art pre-trained models for proteins**. ProtTrans was trained on **thousands of GPUs from Summit** and **hundreds of Google TPUs** using various **Transformer models**.
 
 Have a look at our paper [ProtTrans: cracking the language of life’s code through self-supervised deep learning and high performance computing](https://doi.org/10.1109/TPAMI.2021.3095381) for more information about our work. 
 
@@ -28,11 +28,9 @@ Table of Contents
   * [ ⚗️&nbsp; Protein Sequences Generation ](#protein-generation)
   * [ 🧐&nbsp; Visualization ](#visualization)
   * [ 📈&nbsp; Benchmark ](#benchmark)
-* [ 📊&nbsp; Expected Results  ](#results)
-  * [ 🧬&nbsp; Secondary Structure Prediction (Q3) ](#q3)
-  * [ 🧬&nbsp; Secondary Structure Prediction (Q8) ](#q8)
-  * [ 🧬&nbsp; Membrane-bound vs Water-soluble (Q2) ](#q2)
-  * [ 🧬&nbsp; Subcellular Localization (Q10) ](#q10)
+* [ 📊&nbsp; Original downstream Predictions  ](#results)
+* [ 📊&nbsp; Followup use-cases  ](#inaction)
+* [ 📊&nbsp; Comparisons to other tools ](#comparison)
 * [ ❤️&nbsp; Community and Contributions ](#community)
 * [ 📫&nbsp; Have a question? ](#question)
 * [ 🤝&nbsp; Found a bug? ](#bug)
@@ -47,7 +45,7 @@ Table of Contents
 
 |          Model                |                              Hugging Face                                  |                         Zenodo                |
 | ----------------------------- | :------------------------------------------------------------------------: |:---------------------------------------------:|
-| ProtT5-XL-UniRef50            |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) |
+| ProtT5-XL-UniRef50 (also **ProtT5-XL-U50**)            |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) |
 | ProtT5-XL-BFD                 |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       | [Download](https://zenodo.org/record/4633924) |
 | ProtT5-XXL-UniRef50           |  [Download](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50/tree/main) | [Download](https://zenodo.org/record/4652717) |
 | ProtT5-XXL-BFD                |  [Download](https://huggingface.co/Rostlab/prot_t5_xxl_bfd/tree/main)      | [Download](https://zenodo.org/record/4635302) |
@@ -110,7 +108,7 @@ Please check:
  [Benchmark Section](https://github.com/agemagician/ProtTrans/tree/master/Benchmark). More information coming soon.
 
 <a name="results"></a>
-## 📊&nbsp; Expected Results 
+## 📊&nbsp; Original downstream Predictions 
 
 <a name="q3"></a>
  * <b>🧬&nbsp; Secondary Structure Prediction (Q3):</b><br/>
@@ -128,6 +126,8 @@ Please check:
 | ProtTXL                    |         71         |        76        |        74        |
 | ProtTXL-BFD                |         72         |        75        |        77        |
 
+🆕 Predict your sequence live on [predictprotein.org](https://predictprotein.org).
+
 <a name="q8"></a>
  * <b>🧬&nbsp; Secondary Structure Prediction (Q8):</b><br/>
  
@@ -143,6 +143,8 @@ Please check:
 | ProtElectra-Discriminator  |         62         |        69        |        65        |
 | ProtTXL                    |         59         |        64        |        59        |
 | ProtTXL-BFD                |         60         |        65        |        60        |
+
+🆕 Predict your sequence live on [predictprotein.org](https://predictprotein.org).
 
 <a name="q2"></a>
  * <b>🧬&nbsp; Membrane-bound vs Water-soluble (Q2):</b><br/>
@@ -176,6 +178,34 @@ Please check:
 | ProtElectra-Discriminator  |         70         |
 | ProtTXL                    |         66         |
 | ProtTXL-BFD                |         65         |
+
+
+<a name="inaction"></a>
+## 📊&nbsp; Use-cases 
+| Level | Type  | Tool |  Task | Manuscript | Webserver |
+| ----- |  ---- | -- | -- | -- | -- |
+| Protein | Function | Light Attention | Subcellular localization | [Light attention predicts protein location from the language of life](https://doi.org/10.1093/bioadv/vbab035) | (coming soon) |
+| Residue | Function | bindEmbed21 | Binding Residues | [Protein embeddings and deep learning predict binding residues for various ligand classes](https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.abstract) | (coming soon)  |
+| Residue | Function | VESPA           | Conservation & effect of Single Amino Acid Variants (SAVs) | [Embeddings from protein language models predict conservation and variant effects](https://assets.researchsquare.com/files/rs-584804/v3/8e6d0051-e5e9-425b-99eb-e7ebdf74d308.pdf?c=1638477139) | (coming soon) |
+| Protein | Structure | ProtTucker      | Protein 3D structure similarity prediction                 | [Contrastive learning on protein embeddings enlightens midnight zone at lightning speed](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |  |
+| Residue | Structure | ProtT5dst       | Protein 3D structure prediction                            | [Protein language model embeddings for fast, accurate, alignment-free protein structure prediction](https://www.biorxiv.org/content/10.1101/2021.07.31.454572v1.abstract) |  |
+
+<a name="comparison"></a>
+## 📊&nbsp; Comparison to other protein language models (pLMs)
+While developing the [use-cases](#inaction), we compared ProtTrans models to other protein language models, for instance the [ESM](https://github.com/facebookresearch/esm) models. To focus on the effect of changing input representaitons, the following comparisons use the same architectures on top on different embedding inputs.
+
+|          Task/Model             |  ProtBERT-BFD      | ProtT5-XL-U50    |       ESM-1b    |       ESM-1v      | Metric | Reference |
+| -------------------------- | :--------------:   | :--------------: | :-----------:   | :-----------:  | :-----------: | :-----------: |
+| Subcell. loc. (setDeepLoc) |  80    | <b>86</b>    |   83        |    -         | Accuracy |  [Light-attention](https://academic.oup.com/view-large/figure/321379865/vbab035f2.tif) |
+| Subcell. loc. (setHard)    |  58    | <b>65</b>    |   62        |    -         | Accuracy |  [Light-attention](https://academic.oup.com/view-large/figure/321379865/vbab035f2.tif) |
+| Conservation (ConSurf-DB)  |  0.540 | <b>0.596</b> |   0.563     |    -         | MCC      | [ConsEmb](https://assets.researchsquare.com/files/rs-584804/v3/710ca600bfee26cbf657e84a.pdf) | 
+| Variant effect (DMS-data)  |  -     | <b>0.53</b>  |   -         |    0.49      | Spearman (Mean) | [VESPA](https://assets.researchsquare.com/files/rs-584804/v3/8e6d0051-e5e9-425b-99eb-e7ebdf74d308.pdf?c=1638477139) |
+| Variant effect (DMS-data)  |  -     | <b>0.53</b>  |   -         | <b>0.53</b>  | Spearman (Median) | [VESPA](https://assets.researchsquare.com/files/rs-584804/v3/8e6d0051-e5e9-425b-99eb-e7ebdf74d308.pdf?c=1638477139) |
+| CATH superfamily (unsup.)  |  18    | <b>64</b>    |   57        |    -         | Accuracy | [ProtTucker](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |
+| CATH superfamily (sup.)    |  39    | <b>76</b>    |   70        |    -         | Accuracy | [ProtTucker](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |
+| Binding residues           |  -     | <b>39</b>    |   32        |    -        | F1 | [bindEmbed21](https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3) |
+
+Important note on ProtT5-XL-UniRef50 (dubbed ProtT5-XL-U50): all performances were measured using only embeddings extracted from the encoder-side of the underlying T5 model as described [here](https://github.com/agemagician/ProtTrans/blob/master/Embedding/PyTorch/Advanced/ProtT5-XL-UniRef50.ipynb). Also, experiments were ran in half-precision mode (model.half()), to speed-up embedding generation. No performance degradation could be observed in any of the experiments when running in half-precision.
 
 <a name="community"></a>
 ## ❤️&nbsp; Community and Contributions
