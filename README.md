@@ -185,8 +185,8 @@ Please check:
 | Level | Type  | Tool |  Task | Manuscript | Webserver |
 | ----- |  ---- | -- | -- | -- | -- |
 | Protein | Function | Light Attention | Subcellular localization | [Light attention predicts protein location from the language of life](https://doi.org/10.1093/bioadv/vbab035) | (coming soon) |
-| Residue | Function | bindEmbed21 | Binding Residues | [Protein embeddings and deep learning predict binding residues for various ligand classes](https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3.abstract) | (coming soon)  |
-| Residue | Function | VESPA           | Conservation & effect of Single Amino Acid Variants (SAVs) | [Embeddings from protein language models predict conservation and variant effects](https://assets.researchsquare.com/files/rs-584804/v3/8e6d0051-e5e9-425b-99eb-e7ebdf74d308.pdf?c=1638477139) | (coming soon) |
+| Residue | Function | bindEmbed21 | Binding Residues | [Protein embeddings and deep learning predict binding residues for various ligand classes](https://www.nature.com/articles/s41598-021-03431-4) | (coming soon)  |
+| Residue | Function | VESPA           | Conservation & effect of Single Amino Acid Variants (SAVs) | [Embeddings from protein language models predict conservation and variant effects](https://rdcu.be/cD7q5) | (coming soon) |
 | Protein | Structure | ProtTucker      | Protein 3D structure similarity prediction                 | [Contrastive learning on protein embeddings enlightens midnight zone at lightning speed](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |  |
 | Residue | Structure | ProtT5dst       | Protein 3D structure prediction                            | [Protein language model embeddings for fast, accurate, alignment-free protein structure prediction](https://www.biorxiv.org/content/10.1101/2021.07.31.454572v1.abstract) |  |
 
@@ -198,12 +198,12 @@ While developing the [use-cases](#inaction), we compared ProtTrans models to oth
 | -------------------------- | :--------------:   | :--------------: | :-----------:   | :-----------:  | :-----------: | :-----------: |
 | Subcell. loc. (setDeepLoc) |  80    | <b>86</b>    |   83        |    -         | Accuracy |  [Light-attention](https://academic.oup.com/view-large/figure/321379865/vbab035f2.tif) |
 | Subcell. loc. (setHard)    |  58    | <b>65</b>    |   62        |    -         | Accuracy |  [Light-attention](https://academic.oup.com/view-large/figure/321379865/vbab035f2.tif) |
-| Conservation (ConSurf-DB)  |  0.540 | <b>0.596</b> |   0.563     |    -         | MCC      | [ConsEmb](https://assets.researchsquare.com/files/rs-584804/v3/710ca600bfee26cbf657e84a.pdf) | 
-| Variant effect (DMS-data)  |  -     | <b>0.53</b>  |   -         |    0.49      | Spearman (Mean) | [VESPA](https://assets.researchsquare.com/files/rs-584804/v3/8e6d0051-e5e9-425b-99eb-e7ebdf74d308.pdf?c=1638477139) |
-| Variant effect (DMS-data)  |  -     | <b>0.53</b>  |   -         | <b>0.53</b>  | Spearman (Median) | [VESPA](https://assets.researchsquare.com/files/rs-584804/v3/8e6d0051-e5e9-425b-99eb-e7ebdf74d308.pdf?c=1638477139) |
+| Conservation (ConSurf-DB)  |  0.540 | <b>0.596</b> |   0.563     |    -         | MCC      | [ConsEmb](https://rdcu.be/cD7q5) | 
+| Variant effect (DMS-data)  |  -     | <b>0.53</b>  |   -         |    0.49      | Spearman (Mean) | [VESPA](https://rdcu.be/cD7q5) |
+| Variant effect (DMS-data)  |  -     | <b>0.53</b>  |   -         | <b>0.53</b>  | Spearman (Median) | [VESPA](https://rdcu.be/cD7q5) |
 | CATH superfamily (unsup.)  |  18    | <b>64</b>    |   57        |    -         | Accuracy | [ProtTucker](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |
 | CATH superfamily (sup.)    |  39    | <b>76</b>    |   70        |    -         | Accuracy | [ProtTucker](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |
-| Binding residues           |  -     | <b>39</b>    |   32        |    -        | F1 | [bindEmbed21](https://www.biorxiv.org/content/10.1101/2021.09.03.458869v3) |
+| Binding residues           |  -     | <b>39</b>    |   32        |    -        | F1 | [bindEmbed21](https://www.nature.com/articles/s41598-021-03431-4) |
 
 Important note on ProtT5-XL-UniRef50 (dubbed ProtT5-XL-U50): all performances were measured using only embeddings extracted from the encoder-side of the underlying T5 model as described [here](https://github.com/agemagician/ProtTrans/blob/master/Embedding/PyTorch/Advanced/ProtT5-XL-UniRef50.ipynb). Also, experiments were ran in half-precision mode (model.half()), to speed-up embedding generation. No performance degradation could be observed in any of the experiments when running in half-precision.
 
