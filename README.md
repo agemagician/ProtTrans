@@ -184,8 +184,8 @@ Please check:
 ## 📊&nbsp; Use-cases 
 | Level | Type  | Tool |  Task | Manuscript | Webserver |
 | ----- |  ---- | -- | -- | -- | -- |
-| Protein | Function | Light Attention | Subcellular localization | [Light attention predicts protein location from the language of life](https://doi.org/10.1093/bioadv/vbab035) | (coming soon) |
-| Residue | Function | bindEmbed21 | Binding Residues | [Protein embeddings and deep learning predict binding residues for various ligand classes](https://www.nature.com/articles/s41598-021-03431-4) | (coming soon)  |
+| Protein | Function | Light Attention | Subcellular localization | [Light attention predicts protein location from the language of life](https://doi.org/10.1093/bioadv/vbab035) | ([Web-server](https://embed.protein.properties/)) |
+| Residue | Function | bindEmbed21 | Binding Residues | [Protein embeddings and deep learning predict binding residues for various ligand classes](https://www.nature.com/articles/s41598-021-03431-4) | (Coming soon)  |
 | Residue | Function | VESPA           | Conservation & effect of Single Amino Acid Variants (SAVs) | [Embeddings from protein language models predict conservation and variant effects](https://rdcu.be/cD7q5) | (coming soon) |
 | Protein | Structure | ProtTucker      | Protein 3D structure similarity prediction                 | [Contrastive learning on protein embeddings enlightens midnight zone at lightning speed](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |  |
 | Residue | Structure | ProtT5dst       | Protein 3D structure prediction                            | [Protein language model embeddings for fast, accurate, alignment-free protein structure prediction](https://www.biorxiv.org/content/10.1101/2021.07.31.454572v1.abstract) |  |
