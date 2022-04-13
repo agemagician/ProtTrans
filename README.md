@@ -43,9 +43,9 @@ Table of Contents
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
 
-|          Model                |                              Hugging Face                                  |                         Zenodo                |
-| ----------------------------- | :------------------------------------------------------------------------: |:---------------------------------------------:|
-| ProtT5-XL-UniRef50 (also **ProtT5-XL-U50**)            |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) |
+|          Model                |                              Hugging Face                                  |                         Zenodo                | Colab |
+| ----------------------------- | :------------------------------------------------------------------------: |:---------------------------------------------:|---------------------------------------------:|
+| ProtT5-XL-UniRef50 (also **ProtT5-XL-U50**)            |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main)  | [Download](https://zenodo.org/record/4644188) | [Colab](https://colab.research.google.com/drive/1TUj-ayG3WO52n5N50S7KH9vtt6zRkdmj?usp=sharing)|
 | ProtT5-XL-BFD                 |  [Download](https://huggingface.co/Rostlab/prot_t5_xl_bfd/tree/main)       | [Download](https://zenodo.org/record/4633924) |
 | ProtT5-XXL-UniRef50           |  [Download](https://huggingface.co/Rostlab/prot_t5_xxl_uniref50/tree/main) | [Download](https://zenodo.org/record/4652717) |
 | ProtT5-XXL-BFD                |  [Download](https://huggingface.co/Rostlab/prot_t5_xxl_bfd/tree/main)      | [Download](https://zenodo.org/record/4635302) |
@@ -55,10 +55,7 @@ Table of Contents
 | ProtXLNet                     |  [Download](https://huggingface.co/Rostlab/prot_xlnet/tree/main)           | [Download](https://zenodo.org/record/4633987) |
 | ProtElectra-Generator-BFD     |  [Download](https://huggingface.co/Rostlab/prot_electra_generator_bfd/tree/main)           | [Download](https://zenodo.org/record/4633813) |
 | ProtElectra-Discriminator-BFD |  [Download](https://huggingface.co/Rostlab/prot_electra_discriminator_bfd/tree/main)           | [Download](https://zenodo.org/record/4633717) |
-| ProtElectra-Generator         |     coming soon    |
-| ProtElectra-Discriminator     |     coming soon    |
-| ProtTXL                       |     coming soon    |
-| ProtTXL-BFD                   |     coming soon    |
+
 
 <a name="datasets"></a>
 ## ⌛️&nbsp; Datasets Availability
@@ -80,7 +77,7 @@ How to use ProtTrans:
 <a name="feature-extraction"></a>
  * <b>🧬&nbsp; Feature Extraction (FE):</b><br/>
  Please check:
- [Embedding Section](https://github.com/agemagician/ProtTrans/tree/master/Embedding). More information coming soon.
+ [Embedding Section](https://github.com/agemagician/ProtTrans/tree/master/Embedding). [Colab](https://colab.research.google.com/drive/1TUj-ayG3WO52n5N50S7KH9vtt6zRkdmj?usp=sharing) example for feature extraction via ProtT5-XL-U50 
 
 <a name="fine-tuning"></a>
  * <b>💥&nbsp; Fine Tuning (FT):</b><br/>
@@ -90,7 +87,7 @@ How to use ProtTrans:
 <a name="prediction"></a>
  * <b>🧠&nbsp; Prediction:</b><br/>
  Please check:
- [Prediction Section](https://github.com/agemagician/ProtTrans/tree/master/Prediction). More information coming soon.
+ [Prediction Section](https://github.com/agemagician/ProtTrans/tree/master/Prediction). [Colab](https://colab.research.google.com/drive/1TUj-ayG3WO52n5N50S7KH9vtt6zRkdmj?usp=sharing) example for secondary structure prediction via ProtT5-XL-U50
   
 <a name="protein-generation"></a>
  * <b>⚗️&nbsp; Protein Sequences Generation:</b><br/>
@@ -187,7 +184,7 @@ Please check:
 | Protein | Function | Light Attention | Subcellular localization | [Light attention predicts protein location from the language of life](https://doi.org/10.1093/bioadv/vbab035) | ([Web-server](https://embed.protein.properties/)) |
 | Residue | Function | bindEmbed21 | Binding Residues | [Protein embeddings and deep learning predict binding residues for various ligand classes](https://www.nature.com/articles/s41598-021-03431-4) | (Coming soon)  |
 | Residue | Function | VESPA           | Conservation & effect of Single Amino Acid Variants (SAVs) | [Embeddings from protein language models predict conservation and variant effects](https://rdcu.be/cD7q5) | (coming soon) |
-| Protein | Structure | ProtTucker      | Protein 3D structure similarity prediction                 | [Contrastive learning on protein embeddings enlightens midnight zone at lightning speed](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v1) |  |
+| Protein | Structure | ProtTucker      | Protein 3D structure similarity prediction                 | [Contrastive learning on protein embeddings enlightens midnight zone at lightning speed](https://www.biorxiv.org/content/10.1101/2021.11.14.468528v2) |  |
 | Residue | Structure | ProtT5dst       | Protein 3D structure prediction                            | [Protein language model embeddings for fast, accurate, alignment-free protein structure prediction](https://www.biorxiv.org/content/10.1101/2021.07.31.454572v1.abstract) |  |
 
 <a name="comparison"></a>
