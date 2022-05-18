@@ -87,7 +87,7 @@ How to use ProtTrans:
 <a name="prediction"></a>
  * <b>🧠&nbsp; Prediction:</b><br/>
  Please check:
- [Prediction Section](https://github.com/agemagician/ProtTrans/tree/master/Prediction). [Colab](https://colab.research.google.com/drive/1TUj-ayG3WO52n5N50S7KH9vtt6zRkdmj?usp=sharing) example for secondary structure prediction via ProtT5-XL-U50
+ [Prediction Section](https://github.com/agemagician/ProtTrans/tree/master/Prediction). [Colab](https://colab.research.google.com/drive/1TUj-ayG3WO52n5N50S7KH9vtt6zRkdmj?usp=sharing) example for secondary structure prediction via ProtT5-XL-U50 and [Colab](https://colab.research.google.com/drive/1W5fI20eKLtHpaeeGDcKuXsgeiwujeczX?usp=sharing) example for subcellular localization prediction as well as differentiation between membrane-bound and water-soluble proteins via ProtT5-XL-U50.
   
 <a name="protein-generation"></a>
  * <b>⚗️&nbsp; Protein Sequences Generation:</b><br/>
