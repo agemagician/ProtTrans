@@ -7,4 +7,4 @@ Important Notes:
 
 Update:
 ----------------
-The notebook `protBERT-BFD-lightning-multitasks.ipynb` was kindly provided by @ratthachat . It contains updates/fixes to our previous fine-tuning examples . Specifically, it shows how to fine-tune ProtBERT-BFD on the prediction of subcellular localization as well as differentiation between membrane-bound and soluble proteins (multi-task fine-tuning).
+The notebook `protBERT-BFD-lightning-multitasks.ipynb` was kindly provided by @ratthachat in this [issue](https://github.com/agemagician/ProtTrans/issues/74#issuecomment-1120174837). It contains updates/fixes to our previous fine-tuning examples . Specifically, it shows how to fine-tune ProtBERT-BFD on the prediction of subcellular localization as well as differentiation between membrane-bound and soluble proteins (multi-task fine-tuning).
