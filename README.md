@@ -114,6 +114,8 @@ Please check:
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
 | ProtT5-XL-UniRef50         |         81         |        87        |        86        |
 | ProtT5-XL-BFD              |         77         |        85        |        84        |
+| ProtT5-XXL-UniRef50        |         79         |        86        |        85        |
+| ProtT5-XXL-BFD             |         78         |        85        |        83        |
 | ProtBert-BFD               |         76         |        84        |        83        |
 | ProtBert                   |         75         |        83        |        81        |
 | ProtAlbert                 |         74         |        82        |        79        |
@@ -132,6 +134,8 @@ Please check:
 | -------------------------- | :----------------: | :-------------:  | :-------------:  |
 | ProtT5-XL-UniRef50         |         70         |        77        |        74        |
 | ProtT5-XL-BFD              |         66         |        74        |        71        |
+| ProtT5-XXL-UniRef50        |         68         |        75        |        72        |
+| ProtT5-XXL-BFD             |         66         |        73        |        70        |
 | ProtBert-BFD               |         65         |        73        |        70        |
 | ProtBert                   |         63         |        72        |        66        |
 | ProtAlbert                 |         62         |        70        |        65        |
@@ -150,6 +154,8 @@ Please check:
 | -------------------------- | :----------------: |
 | ProtT5-XL-UniRef50         |         91         |
 | ProtT5-XL-BFD              |         91         |
+| ProtT5-XXL-UniRef50        |         89         |
+| ProtT5-XXL-BFD             |         90         |
 | ProtBert-BFD               |         89         |
 | ProtBert                   |         89         |
 | ProtAlbert                 |         88         |
@@ -167,6 +173,8 @@ Please check:
 | -------------------------- | :----------------: |
 | ProtT5-XL-UniRef50         |         81         |
 | ProtT5-XL-BFD              |         77         |
+| ProtT5-XXL-UniRef50        |         79         |
+| ProtT5-XXL-BFD             |         77         |
 | ProtBert-BFD               |         74         |
 | ProtBert                   |         74         |
 | ProtAlbert                 |         74         |
