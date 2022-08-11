@@ -23,6 +23,7 @@ Table of Contents
 * [ ⌛️&nbsp; Dataset Availability](#datasets)
 * [ 🚀&nbsp; Usage ](#usage)
   * [ 🧬&nbsp; Feature Extraction (FE)](#feature-extraction)
+  * [ 🚀&nbsp; Logits extraction](#logits-extraction)
   * [ 💥&nbsp; Fine Tuning (FT)](#fine-tuning)
   * [ 🧠&nbsp; Prediction](#prediction)
   * [ ⚗️&nbsp; Protein Sequences Generation ](#protein-generation)
@@ -78,6 +79,11 @@ How to use ProtTrans:
  * <b>🧬&nbsp; Feature Extraction (FE):</b><br/>
  Please check:
  [Embedding Section](https://github.com/agemagician/ProtTrans/tree/master/Embedding). [Colab](https://colab.research.google.com/drive/1TUj-ayG3WO52n5N50S7KH9vtt6zRkdmj?usp=sharing) example for feature extraction via ProtT5-XL-U50 
+
+<a name="logits-extraction"></a>
+ * <b>🚀&nbsp; Logits Extraction:</b><br/>
+ For ProtT5-logits extraction, please check:
+ [VESPA logits script](https://github.com/Rostlab/VESPA#step-3-log-odds-ratio-of-masked-marginal-probabilities). 
 
 <a name="fine-tuning"></a>
  * <b>💥&nbsp; Fine Tuning (FT):</b><br/>
