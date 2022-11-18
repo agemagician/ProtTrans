@@ -19,6 +19,7 @@ This repository will be updated regulary with **new pre-trained models for prote
 
 Table of Contents
 =================
+* [ ⌛️&nbsp; News](#news)
 * [ ⌛️&nbsp; Models Availability](#models)
 * [ ⌛️&nbsp; Dataset Availability](#datasets)
 * [ 🚀&nbsp; Usage ](#usage)
@@ -40,6 +41,12 @@ Table of Contents
 * [ 💰&nbsp; Sponsors ](#sponsors)
 * [ 📘&nbsp; License ](#license)
 * [ ✏️&nbsp; Citation ](#citation)
+
+
+<a name="news"></a>
+## ⌛️&nbsp; News
+* 2022/11/18: Availability: [LambdaPP](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
+
 
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
