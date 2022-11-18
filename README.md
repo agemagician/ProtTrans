@@ -45,7 +45,7 @@ Table of Contents
 
 <a name="news"></a>
 ## ⌛️&nbsp; News
-* 2022/11/18: Availability: [LambdaPP](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
+* 2022/11/18: Availability: [LambdaPP](https://embed.predictprotein.org/) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
 
 
 <a name="models"></a>
