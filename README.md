@@ -91,6 +91,11 @@ emb_0_per_protein = emb_0.mean(dim=0) # shape (1024)
 ```
 
 
+We also have a [script](https://github.com/agemagician/ProtTrans/blob/master/Embedding/prott5_embedder.py) which simplifies deriving per-residue and per-protein embeddings from ProtT5 for a given FASTA file:
+```
+python prott5_embedder.py --input sequences/some.fasta --output embeddings/residue_embeddings.h5
+python prott5_embedder.py --input sequences/some.fasta --output embeddings/protein_embeddings.h5 --per_protein 1
+```
 
 <a name="models"></a>
 ## ⌛️&nbsp; Models Availability
