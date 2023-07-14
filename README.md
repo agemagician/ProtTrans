@@ -46,6 +46,7 @@ Table of Contents
 
 <a name="news"></a>
 ## ⌛️&nbsp; News
+* **2022/11/18: [FineTuning with LoRA]( https://github.com/agemagician/ProtTrans/tree/master/Fine-Tuning) provides a notebooks on how to fine-tune ProtT5 on both, per-residue and per-protein tasks, using Low-Rank Adaptation (LoRA) for efficient finetuning (thanks @0syrys !).**
 * 2022/11/18: Availability: [LambdaPP](https://embed.predictprotein.org/) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
 
 <a name="quick"></a>
