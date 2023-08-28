@@ -55,10 +55,12 @@ Example for how to derive embeddings from our best-performing protein language m
 ```python
 from transformers import T5Tokenizer, T5EncoderModel
 import torch
+import re
+
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 # Load the tokenizer
-tokenizer = T5Tokenizer.from_pretrained('Rostlab/prot_t5_xl_half_uniref50-enc', do_lower_case=False).to(device)
+tokenizer = T5Tokenizer.from_pretrained('Rostlab/prot_t5_xl_half_uniref50-enc', do_lower_case=False)
 
 # Load the model
 model = T5EncoderModel.from_pretrained("Rostlab/prot_t5_xl_half_uniref50-enc").to(device)
@@ -73,14 +75,14 @@ sequence_examples = ["PRTEINO", "SEQWENCE"]
 sequence_examples = [" ".join(list(re.sub(r"[UZOB]", "X", sequence))) for sequence in sequence_examples]
 
 # tokenize sequences and pad up to the longest sequence in the batch
-ids = tokenizer.batch_encode_plus(sequences_example, add_special_tokens=True, padding="longest")
+ids = tokenizer(sequence_examples, add_special_tokens=True, padding="longest")
 
 input_ids = torch.tensor(ids['input_ids']).to(device)
 attention_mask = torch.tensor(ids['attention_mask']).to(device)
 
 # generate embeddings
 with torch.no_grad():
-    embedding_rpr = model(input_ids=input_ids,attention_mask=attention_mask)
+    embedding_repr = model(input_ids=input_ids, attention_mask=attention_mask)
 
 # extract residue embeddings for the first ([0,:]) sequence in the batch and remove padded & special tokens ([0,:7]) 
 emb_0 = embedding_repr.last_hidden_state[0,:7] # shape (7 x 1024)
