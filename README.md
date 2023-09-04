@@ -20,6 +20,7 @@ This repository will be updated regulary with **new pre-trained models for prote
 Table of Contents
 =================
 * [ ⌛️&nbsp; News](#news)
+* [ 🚀&nbsp; Installation](#install)
 * [ 🚀&nbsp; Quick Start](#quick)
 * [ ⌛️&nbsp; Models Availability](#models)
 * [ ⌛️&nbsp; Dataset Availability](#datasets)
@@ -48,6 +49,23 @@ Table of Contents
 ## ⌛️&nbsp; News
 * **2023/07/14: [FineTuning with LoRA]( https://github.com/agemagician/ProtTrans/tree/master/Fine-Tuning) provides a notebooks on how to fine-tune ProtT5 on both, per-residue and per-protein tasks, using Low-Rank Adaptation (LoRA) for efficient finetuning (thanks @0syrys !).**
 * 2022/11/18: Availability: [LambdaPP](https://embed.predictprotein.org/) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
+
+<a name="install"></a>
+## 🚀&nbsp; Installation
+All our models are available via huggingface/transformers:
+```console
+pip install torch
+pip install transformers
+pip install sentencepiece
+```
+For more details, please follow the instructions for [transformers installations](https://huggingface.co/docs/transformers/installation).
+
+A recently introduced [change in the T5-tokenizer](https://github.com/huggingface/transformers/pull/24565) results in `UnboundLocalError: cannot access local variable 'sentencepiece_model_pb2` and can either be fixed by installing [this PR](https://github.com/huggingface/transformers/pull/25684) or by manually installing:
+```console
+pip install protobuf
+```
+If you are using a transformer version after [this PR](https://github.com/huggingface/transformers/pull/24565), you will see [this warning](https://github.com/huggingface/transformers/blob/main/src/transformers/models/t5/tokenization_t5.py#L167).
+Explicitly setting `legacy=True` will result in expected behavor and will avoid the warning. You can also safely ignore the warning as `legacy=True` is [the default](https://github.com/huggingface/transformers/blob/main/src/transformers/models/t5/tokenization_t5.py#L175).
 
 <a name="quick"></a>
 ## 🚀&nbsp; Quick Start
