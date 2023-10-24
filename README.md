@@ -20,6 +20,7 @@ This repository will be updated regulary with **new pre-trained models for prote
 Table of Contents
 =================
 * [ ⌛️&nbsp; News](#news)
+* [ 🚀&nbsp; Installation](#install)
 * [ 🚀&nbsp; Quick Start](#quick)
 * [ ⌛️&nbsp; Models Availability](#models)
 * [ ⌛️&nbsp; Dataset Availability](#datasets)
@@ -46,7 +47,25 @@ Table of Contents
 
 <a name="news"></a>
 ## ⌛️&nbsp; News
+* **2023/07/14: [FineTuning with LoRA]( https://github.com/agemagician/ProtTrans/tree/master/Fine-Tuning) provides a notebooks on how to fine-tune ProtT5 on both, per-residue and per-protein tasks, using Low-Rank Adaptation (LoRA) for efficient finetuning (thanks @0syrys !).**
 * 2022/11/18: Availability: [LambdaPP](https://embed.predictprotein.org/) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
+
+<a name="install"></a>
+## 🚀&nbsp; Installation
+All our models are available via huggingface/transformers:
+```console
+pip install torch
+pip install transformers
+pip install sentencepiece
+```
+For more details, please follow the instructions for [transformers installations](https://huggingface.co/docs/transformers/installation).
+
+A recently introduced [change in the T5-tokenizer](https://github.com/huggingface/transformers/pull/24565) results in `UnboundLocalError: cannot access local variable 'sentencepiece_model_pb2` and can either be fixed by installing [this PR](https://github.com/huggingface/transformers/pull/25684) or by manually installing:
+```console
+pip install protobuf
+```
+If you are using a transformer version after [this PR](https://github.com/huggingface/transformers/pull/24565), you will see [this warning](https://github.com/huggingface/transformers/blob/main/src/transformers/models/t5/tokenization_t5.py#L167).
+Explicitly setting `legacy=True` will result in expected behavor and will avoid the warning. You can also safely ignore the warning as `legacy=True` is [the default](https://github.com/huggingface/transformers/blob/main/src/transformers/models/t5/tokenization_t5.py#L175).
 
 <a name="quick"></a>
 ## 🚀&nbsp; Quick Start
@@ -54,10 +73,12 @@ Example for how to derive embeddings from our best-performing protein language m
 ```python
 from transformers import T5Tokenizer, T5EncoderModel
 import torch
+import re
+
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 # Load the tokenizer
-tokenizer = T5Tokenizer.from_pretrained('Rostlab/prot_t5_xl_half_uniref50-enc', do_lower_case=False).to(device)
+tokenizer = T5Tokenizer.from_pretrained('Rostlab/prot_t5_xl_half_uniref50-enc', do_lower_case=False)
 
 # Load the model
 model = T5EncoderModel.from_pretrained("Rostlab/prot_t5_xl_half_uniref50-enc").to(device)
@@ -72,14 +93,14 @@ sequence_examples = ["PRTEINO", "SEQWENCE"]
 sequence_examples = [" ".join(list(re.sub(r"[UZOB]", "X", sequence))) for sequence in sequence_examples]
 
 # tokenize sequences and pad up to the longest sequence in the batch
-ids = tokenizer.batch_encode_plus(sequences_example, add_special_tokens=True, padding="longest")
+ids = tokenizer(sequence_examples, add_special_tokens=True, padding="longest")
 
 input_ids = torch.tensor(ids['input_ids']).to(device)
 attention_mask = torch.tensor(ids['attention_mask']).to(device)
 
 # generate embeddings
 with torch.no_grad():
-    embedding_rpr = model(input_ids=input_ids,attention_mask=attention_mask)
+    embedding_repr = model(input_ids=input_ids, attention_mask=attention_mask)
 
 # extract residue embeddings for the first ([0,:]) sequence in the batch and remove padded & special tokens ([0,:7]) 
 emb_0 = embedding_repr.last_hidden_state[0,:7] # shape (7 x 1024)
