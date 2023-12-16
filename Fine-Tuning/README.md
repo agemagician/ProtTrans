@@ -14,7 +14,7 @@ Important Notes:
   
 4. **Memory Requirements**
 
-   We show the memory requirements to run the _per protein_ notebook in dependence on the maximum sequence length and the batch size. This requires Deepspeed and Mixed-Percision training to be utilized.
+   We show the memory requirements to run the _per protein_ notebook in dependence on the maximum sequence length and the batch size. This requires Deepspeed and Mixed-Precision training to be utilized.
    <div align="center">
    <img src="memory_req.png" align="mid" width=70% height=70%>  
     
