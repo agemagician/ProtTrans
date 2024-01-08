@@ -24,7 +24,10 @@ def get_T5_model(model_dir, transformer_link = "Rostlab/prot_t5_xl_half_uniref50
         print("Loading cached model from: {}".format(model_dir))
         print("##########################")
     model = T5EncoderModel.from_pretrained(transformer_link, cache_dir=model_dir)
-    model.full() if device=='cpu' else model.half() # only cast to full-precision if no GPU is available
+    # only cast to full-precision if no GPU is available
+    if device==torch.device("cpu"):
+        print("Casting model to full precision for running on CPU ...")
+        model.to(torch.float32)
 
     model = model.to(device)
     model = model.eval()
