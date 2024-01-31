@@ -27,3 +27,7 @@ Important Notes:
 7. **Colab version**
 
    We provide a colab version of the [**per protein notebook**](https://drive.google.com/file/d/1HCMvBykUKWj9sujtFfMr_jJYYdpbCgp4/view?usp=drive_link) (gb1 dataset). Here you do not need to setup your own jupyter environment
+
+8. **License**
+   
+   These notebooks are released under terms of the [Academic Free License v3.0 License](https://choosealicense.com/licenses/afl-3.0/).
