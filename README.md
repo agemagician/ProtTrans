@@ -84,7 +84,8 @@ tokenizer = T5Tokenizer.from_pretrained('Rostlab/prot_t5_xl_half_uniref50-enc', 
 model = T5EncoderModel.from_pretrained("Rostlab/prot_t5_xl_half_uniref50-enc").to(device)
 
 # only GPUs support half-precision currently; if you want to run on CPU use full-precision (not recommended, much slower)
-model.to(torch.float32) if device==torch.device("cpu")
+if device == torch.device("cpu"):
+    model.to(torch.float32)
 
 # prepare your protein sequences as a list
 sequence_examples = ["PRTEINO", "SEQWENCE"]
