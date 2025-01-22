@@ -47,7 +47,8 @@ Table of Contents
 
 <a name="news"></a>
 ## ⌛️&nbsp; News
-* **2023/07/14: [FineTuning with LoRA]( https://github.com/agemagician/ProtTrans/tree/master/Fine-Tuning) provides a notebooks on how to fine-tune ProtT5 on both, per-residue and per-protein tasks, using Low-Rank Adaptation (LoRA) for efficient finetuning (thanks @0syrys !).**
+* **2025/01/22: [Continue pre-training & evo-tuning]( https://github.com/RSchmirler/ProtT5-EvoTuning/tree/main?tab=readme-ov-file ) shows how to either continue pre-training of ProtT5 on new protein sequences using ProtT5's original pre-training task. This includes continue pre-training on a set of homologous sequences (aka evo-tuning.)**
+* 2023/07/14: [FineTuning with LoRA]( https://github.com/agemagician/ProtTrans/tree/master/Fine-Tuning) provides a notebooks on how to fine-tune ProtT5 on both, per-residue and per-protein tasks, using Low-Rank Adaptation (LoRA) for efficient finetuning (thanks @0syrys !).**
 * 2022/11/18: Availability: [LambdaPP](https://embed.predictprotein.org/) offers a simple web-service to access ProtT5-based predictions and UniProt now offers to download [pre-computed ProtT5 embeddings](https://www.uniprot.org/help/embeddings) for a subset of selected organisms. 
 
 <a name="install"></a>
